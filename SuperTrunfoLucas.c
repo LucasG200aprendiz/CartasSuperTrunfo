@@ -19,11 +19,14 @@ int main(){
     float pib2;
     int pontos_turisticos2;
 
+    printf("=================\n");
     printf("Super Trunfo!\n");
+    printf("=================\n");
     //Coletando informações da carta 1:
 
+    printf("\nINFORME OS DADOS DA SUA PRIMEIRA CARTA\n");
     //Estado 1
-    printf("Digite a inicial do estado da carta-(de A até H):\n");
+    printf("Digite a inicial do estado da carta:\n");
     scanf(" %c", &estado1);
     //Codigo da carta 1:
     printf("Digite o codigo da carta:\n");
@@ -45,9 +48,9 @@ int main(){
     scanf("%d", &pontos_turisticos1);
 
     //Coletando informações da carta 2:
-
+    printf("\nAGORA VAMOS PARA A SEGUNDA CARTA\n");
     //Estado 2
-    printf("Digite a inicial do estado da carta-(de A até H):\n");
+    printf("Digite a inicial do estado da carta:\n");
     scanf(" %c", &estado2);
     //Codigo da carta 2:
     printf("Digite o codigo da carta:\n");
@@ -69,7 +72,7 @@ int main(){
     scanf("%d", &pontos_turisticos2);
 
     //Mostrando as informações da carta 1
-    printf("CARTA 1\n");
+    printf("\n----->CARTA 1<-----\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo_carta1);
     printf("Nome da cidade: %s\n", nome_cidade1);
@@ -79,7 +82,7 @@ int main(){
     printf("Pontos Turísticos: %d\n", pontos_turisticos1);
 
     //Mostrando as informações da carta 2
-    printf("CARTA 2\n");
+    printf("\n----->CARTA 2<-----\n");
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo_carta2);
     printf("Nome da cidade: %s\n", nome_cidade2);
